@@ -11,6 +11,18 @@ public class Persona {
 	private String nombre;
 	private double peso;
 	private double altura;
+	
+	
+	/**
+	 * @param nombre
+	 * @param peso
+	 * @param altura
+	 */
+	public Persona(String nombre, double peso, double altura) {
+		this.nombre = nombre;
+		this.peso = peso;
+		this.altura = altura;
+	}
 	/**
 	 * @return the nombre
 	 */
