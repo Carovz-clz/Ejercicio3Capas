@@ -34,9 +34,9 @@ public class ConsultaDatos {
 	Persona recuperarDatosPersona(String linea) {
 		String[] persona = linea.split("-");
 		
-		Persona p = new Persona(persona[0], Float.parseFloat(persona[1]), Float.parseFloat(persona[2]));
+		//Persona p = new Persona(persona[0], Float.parseFloat(persona[1]), Float.parseFloat(persona[2])/100);
 		
-		return p;
+		return new Persona(persona[0], Float.parseFloat(persona[1]), Float.parseFloat(persona[2])/100);
 		
 	}
 }
